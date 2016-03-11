@@ -1,0 +1,37 @@
+
+header .header-inner li:nth-child(3) a{background-image: url(../images/a_35.png);background-repeat: no-repeat;background-position: bottom center;}
+
+
+.banner{width: 100%;border-top: 1px solid white;border-bottom: 1px solid white; }
+.banner img{width: 100%;}
+.kong{width: 100%;height: 7px;background-image: url(../images/v_49.png);background-position: bottom center;background-repeat: repeat-x;}
+
+.main{width: 100%;padding-top: 50px;}
+.main .main-inner{width: 70.7931%;/*955/1349*//*background-color: pink;*/margin: 0 auto;background-image: url(../images/main_bg_13.png);
+	                    background-position: top left;background-repeat: no-repeat;padding-left: 2%}	 
+.main .main-inner .btn{width: 92.4623%;/*920/995*/text-align: center;border-bottom: 1px dashed #555557;padding-top: 31px;margin-left:0.5175%;/*35/995*/}
+.main .main-inner .btn a{float: left;text-decoration: none;font-size: 1.4em;color:#fefefe;width: 12.1739%;/*112/920*/line-height: 45px;background-image: url(../images/111_67.png);margin-left: 1%;margin-bottom: 20px;background-repeat: no-repeat;}
+.main .main-inner .btn img{float: left;margin-left:1% ;/*55/920*/margin-top: 5px;}
+.main .main-inner>p{font-family: "微软雅黑";margin-top: 38px;color:#484848;font-size: 1.6em;line-height: 22px;margin-left: 1%;margin-bottom: 47px;}
+.main .main-inner section{width: 87.2361%;/*868/995*//*border:1px solid red;*/margin-bottom: 80px;}
+.main .main-inner section img{float: left;}
+.main .main-inner section article{float: right;width: 49.7695%;/*432/868*/}
+.main .main-inner section article h2{margin-left: 2%;font-family: "微软雅黑";font-size: 1.9em;color:#fc494c;margin-top: 2px;margin-bottom: 7px;}
+.main .main-inner section article h3{margin-left: 2%;font-size: 1.7em;margin-bottom: 5px;}
+.main .main-inner section article p{font-family: "宋体";font-size: 1.5em;color:#626262;line-height: 25px;}
+.main .main-inner section article p a{font-size: 1em;color:#f54d4d;line-height: 25px;text-decoration: none;}
+
+.main>h2{border:4px solid #e00024;margin-bottom: 7px;}
+
+
+@media screen and (max-width:480px){
+	.main .main-inner .btn a{width: 45.1739%;}
+	.main .main-inner .btn img{float: none;width: 100%;}
+	.main .main-inner section{float: none;margin-bottom: 30px;}
+	.main .main-inner section img{float: none;width: 100%;}
+	.main .main-inner section article{float: none;width: 100%;;margin-top: 20px;}
+}
+
+
+
+

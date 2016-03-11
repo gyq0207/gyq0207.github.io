@@ -1,0 +1,9 @@
+.main{/*background-color: pink;*/border-bottom:1px solid #dadada;}
+.main-inner{/*background-color: yellow;*/width: 1200px;margin: 0 auto;border-top:1px solid #cccccc;/*padding-top: 20px;*/padding-bottom: 128px;}
+.main-inner div{/*background-color: #8A2BE2;*/width: 220px;height: 400px;margin-left: 19px;/*margin-right: 10px;*/float: left;margin-top: 30px;}
+.main-inner div a{text-decoration: none;font-size: 14px;color:#333333;}
+.main-inner div a h4{padding-top: 20px;}
+.main-inner div p{float: left;padding-top: 14px;color: #f36;width: 50px;}
+.main-inner .sevenz{margin-left: 14px;margin-top: 14px;}
+.main-inner .xin{margin-left: 14px;margin-top: 15px;}
+.main-inner .num{float: right;margin-right: 25px;*margin-top: -32px;}

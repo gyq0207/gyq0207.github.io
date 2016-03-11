@@ -1,0 +1,41 @@
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;clear:both;}
+
+
+body{font-family: "黑体";font-size: 10px;}
+.container{width: 100%;}
+
+header{width: 100%;background-image: url(../images/1_39.png);background-position: bottom center;background-repeat: repeat-x;}
+header .header-inner{width: 68.1986%;/*920/1349*//*background-color: pink;*/margin: 0 auto;}
+header .header-inner .logo{float: left;width: 23.3695%;/*215/920*/padding-top: 16px;margin-bottom: 16px;}
+header .header-inner .logo img{width: 100%;}
+header .header-inner .topnav{float: right;width: 27.6086%;/*254/920*/text-align: center;}
+header .header-inner .topnav a{float: left;text-decoration: none;color:black;font-size: 1.3em;width: 48%;/*120/254*/line-height: 28px;
+	                           background-color: #f2f2f2;border-radius: 0 0 5px 5px;box-shadow: 3px 3px 5px #a3a3a3;}
+header .header-inner .topnav a:first-child{margin-right: 3.9370%;/*10/254*/}
+header .header-inner nav ul{float:right;width: 61.9565%;margin-top: 19px;}
+header .header-inner nav ul li{float: left;width:16.66%;line-height: 7em;}
+header .header-inner li a{font-family: "宋体";display:block;text-decoration: none;font-size: 1.4em;color:#e30024;text-align: center;font-weight: bold;}
+header .header-inner li a:hover{background-image: url(../images/a_35.png);background-repeat: no-repeat;background-position: bottom center;}
+
+
+footer{width: 100%;background-image: url(../images/footer_bg.gif);}
+footer .footer-inner{width: 68.6434%;/*926/1349*/margin: 0 auto;/*background-color: pink;*/padding-top: 14px;}
+footer .footer-inner .left{float: left;width: 24.2181%;/*215/926*/margin-bottom: 35px;}
+footer .footer-inner .left img{width: 100%;margin-bottom: 5px;}
+footer .footer-inner .left p{font-size: 1.24em;color:#a3a1a2;line-height: 17px;}
+footer .footer-inner nav{float: right;width: 42.7645%;margin-top: 23px;/*396/926*/}
+footer .footer-inner ul li{float: left;border-left: 1px solid #77051f;margin-right:2%;padding-left: 1%;}
+footer .footer-inner ul li a{text-decoration: none;color:#aaa8a9;font-size: 1.4em;}
+footer .footer-inner nav p{display: block;color:#aaa8a9;margin-top: 35px;}
+
+
+
+@media screen and (max-width:480px){
+	body{font-size: 5px;}
+	header .header-inner nav
+	header .header-inner .topnav{width: 70.6086%;}
+	header .header-inner .topnav a{width: 48%;}
+	header .header-inner nav{padding-top: 40px;margin-left: 30%;margin-bottom: 13px;}
+}
