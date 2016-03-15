@@ -2166,7 +2166,7 @@ i.in{
 		width: 35px;
 		height: 35px;
 		background: url("../images/img-sprite.png") no-repeat -48px -38px;
-		margin-right: 7px;
+		/*margin-right: 7px;*/
 		background-size: 210px;
 	}
 	.contact-info ul li {
