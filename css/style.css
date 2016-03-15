@@ -2160,7 +2160,7 @@ i.in{
 		background: url("../images/img-sprite.png") no-repeat -3px -38px;
 		margin-right: 7px;
 		background-size: 210px;
-		margin-left: 159px;
+		/*margin-left: 159px;*/
 	}
 	i.phone {
 		width: 35px;
@@ -2173,7 +2173,7 @@ i.in{
 		font-size: 0.9em;
 	}
 	.contact-info ul li a {
-		font-size: 1em;
+		font-size: 0.7em;
 	}
 	.contact-info input.text, .contact-info textarea {
 		padding: 10px 10px;
